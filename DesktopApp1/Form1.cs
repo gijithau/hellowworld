@@ -31,5 +31,10 @@ namespace DesktopApp1
         {
             MessageBox.Show("Thanks!");
         }
+
+        public string SampleMethod()
+        {
+            return "gijith";
+        }
     }
 }
