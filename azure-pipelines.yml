@@ -16,6 +16,8 @@ steps:
 
 - script: dotnet restore
 
+- script: dotnet build # Include additional options such as --configuration to meet your need
+
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
